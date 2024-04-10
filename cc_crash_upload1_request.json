@@ -1,0 +1,330 @@
+{
+  "ai": {
+    "ai": "b3b662e1-2996-4fc8-a4dd-3a68bc2d44ad",
+    "an": "iOSDemoSession",
+    "av": "555",
+    "ci": "appstor"
+  },
+  "as" : {
+    "pact" : 3283077,
+    "pft" : 13005515,
+    "pplt" : 13357623
+  },
+  "cmt": 1635499850259221,
+  "di": {
+    "a": "111",
+    "bn": "apple",
+    "ch": "apple",
+    "ci": "arm64",
+    "cm": "arm64",
+    "di": "013A99CF-BA24-468F-A290-7EABD26EAA7C",
+    "ds": "1125*2436",
+    "l": "zh-Hans-AR",
+    "m": "andorid14.1",
+    "obv": "19A346",
+    "omv": "iOS 15.0",
+    "ot": 1,
+    "ram": 6144,
+    "rom": 51200
+  },
+  "ds": {
+    "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38": {
+      "auc": 20,
+      "aura": 3072,
+      "ot": 1,
+      "s": 0,
+      "sab": 95,
+      "sara": 3072,
+      "saro": 10240,
+      "suc": 20
+    }
+  },
+  "e": [
+    {
+      "ent": 1646793445796381,
+      "k": "crash",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "bi": "iOSDemoSession:arm64;C8F02DC5-6694-3A2A-A5CD-E7A5184A0E47;0x0000000104fd8000\nlibdispatch.dylib:arm64e;959CD6E4-0CE7-3022-B73C-8B36F79F4745;0x000000018387f000\nlibsystem_c.dylib:arm64e;059FC305-234A-3025-A155-5473CF3A0E9B;0x000000018e9ec000\nlibsystem_kernel.dylib:arm64e;D2476F74-D204-348D-8D38-6165D0485C7C;0x00000001ba655000\nlibsystem_pthread.dylib:arm64e;BC1CE0C6-A9F2-396B-9AFB-623D3ACD5881;0x00000001f4044000\nlibobjc.A.dylib:arm64e;6D12ADE5-6065-3900-A6BC-80677CCAC819;0x000000019c115000\nCoreFoundation:arm64e;6174789A-E88C-3F5C-BA39-DE2E9EDC0750;0x0000000183b77000\nFoundation:arm64e;EFBCA2FF-8B8C-3227-ABBC-154BA851D23C;0x00000001853a1000\nCFNetwork:arm64e;570AAD29-CE5C-3CD9-AB01-AD21E1440DDB;0x000000018438d000\nUIKitCore:arm64e;0E2D8679-D5F1-3C03-9010-7F6CE3662789;0x0000000186021000\nGraphicsServices:arm64e;0F7424F6-BDE5-311A-A3FA-C0E0C4C28D72;0x000000019f3a6000\n",
+        "cab": "*** -[__NSArrayI objectAtIndexedSubscript:]: index 4 beyond bounds [0 .. 2]",
+        "cp": 2,
+        "cti": "259",
+        "ic": false,
+        "mti": "259",
+        "t": "nsexception-15.0系统",
+        "tdi": [
+          {
+            "di": "0   CoreFoundation  0x0000000183c1005c 0x0000000183b77000 + 626780\n1   libobjc.A.dylib  0x000000019c12af54 0x000000019c115000 + 89940\n2   CoreFoundation  0x0000000183d19538 0x0000000183b77000 + 1713464\n3   CoreFoundation  0x0000000183bc3e38 0x0000000183b77000 + 314936\n4   iOSDemoSession  0x000000010500ed18 0x0000000104fd8000 + 224536\n5   iOSDemoSession  0x0000000105146064 0x0000000104fd8000 + 1499236\n6   iOSDemoSession  0x000000010512d828 0x0000000104fd8000 + 1398824\n7   iOSDemoSession  0x0000000105145fe0 0x0000000104fd8000 + 1499104\n8   iOSDemoSession  0x000000010512b668 0x0000000104fd8000 + 1390184\n9   iOSDemoSession  0x000000010512b724 0x0000000104fd8000 + 1390372\n10  iOSDemoSession  0x0000000105934644 0x0000000104fd8000 + 9815620\n11  UIKitCore  0x00000001870cc564 0x0000000186021000 + 17479012\n12  UIKitCore  0x00000001870cbf80 0x0000000186021000 + 17477504\n13  UIKitCore  0x00000001870cc7b4 0x0000000186021000 + 17479604\n14  UIKitCore  0x000000018634ddb4 0x0000000186021000 + 3329460\n15  UIKitCore  0x000000018625efe0 0x0000000186021000 + 2351072\n16  UIKitCore  0x0000000186187670 0x0000000186021000 + 1468016\n17  UIKitCore  0x0000000186187d88 0x0000000186021000 + 1469832\n18  UIKitCore  0x0000000186565c34 0x0000000186021000 + 5524532\n19  UIKitCore  0x00000001867ffad8 0x0000000186021000 + 8252120\n20  UIKitCore  0x0000000186e77294 0x0000000186021000 + 15032980\n21  UIKitCore  0x0000000186e76760 0x0000000186021000 + 15030112\n22  CoreFoundation  0x0000000183c32030 0x0000000183b77000 + 766000\n23  CoreFoundation  0x0000000183c42cf0 0x0000000183b77000 + 834800\n24  CoreFoundation  0x0000000183b7cff8 0x0000000183b77000 + 24568\n25  CoreFoundation  0x0000000183b82804 0x0000000183b77000 + 47108\n26  CoreFoundation  0x0000000183b963c8 0x0000000183b77000 + 127944\n27  GraphicsServices  0x000000019f3a738c 0x000000019f3a6000 + 5004\n28  UIKitCore  0x000000018653c0bc 0x0000000186021000 + 5353660\n29  UIKitCore  0x00000001862b9be8 0x0000000186021000 + 2722792\n30  iOSDemoSession  0x0000000104fef458 0x0000000104fd8000 + 95320\n",
+            "n": "#0 Thread",
+            "ti": "259"
+          },
+          {
+            "di": "0   libsystem_kernel.dylib  0x00000001ba6565b8 0x00000001ba655000 + 5560\n1   libdispatch.dylib  0x0000000183882f5c 0x000000018387f000 + 16220\n2   libdispatch.dylib  0x0000000183883560 0x000000018387f000 + 17760\n3   iOSDemoSession  0x00000001059561cc 0x0000000104fd8000 + 9953740\n4   libdispatch.dylib  0x0000000183880c04 0x000000018387f000 + 7172\n5   libdispatch.dylib  0x0000000183882950 0x000000018387f000 + 14672\n6   libdispatch.dylib  0x000000018388a0ac 0x000000018387f000 + 45228\n7   libdispatch.dylib  0x000000018388ac10 0x000000018387f000 + 48144\n8   libdispatch.dylib  0x0000000183895318 0x000000018387f000 + 90904\n9   libsystem_pthread.dylib  0x00000001f40451b0 0x00000001f4044000 + 4528\n",
+            "n": "#1 Thread",
+            "ti": "5899"
+          },
+          {
+            "di": "0   libsystem_kernel.dylib  0x00000001ba6565b8 0x00000001ba655000 + 5560\n1   libdispatch.dylib  0x0000000183882f5c 0x000000018387f000 + 16220\n2   libdispatch.dylib  0x0000000183883560 0x000000018387f000 + 17760\n3   iOSDemoSession  0x00000001059580fc 0x0000000104fd8000 + 9961724\n4   libdispatch.dylib  0x0000000183880c04 0x000000018387f000 + 7172\n5   libdispatch.dylib  0x0000000183882950 0x000000018387f000 + 14672\n6   libdispatch.dylib  0x000000018388a0ac 0x000000018387f000 + 45228\n7   libdispatch.dylib  0x000000018388ac10 0x000000018387f000 + 48144\n8   libdispatch.dylib  0x0000000183895318 0x000000018387f000 + 90904\n9   libsystem_pthread.dylib  0x00000001f40451b0 0x00000001f4044000 + 4528\n",
+            "n": "#2 Thread",
+            "ti": "9219"
+          },
+          {
+            "di": "0   libsystem_kernel.dylib  0x00000001ba6565b8 0x00000001ba655000 + 5560\n1   libdispatch.dylib  0x0000000183882f5c 0x000000018387f000 + 16220\n2   libdispatch.dylib  0x0000000183883560 0x000000018387f000 + 17760\n3   iOSDemoSession  0x0000000105945018 0x0000000104fd8000 + 9883672\n4   libdispatch.dylib  0x0000000183880c04 0x000000018387f000 + 7172\n5   libdispatch.dylib  0x0000000183882950 0x000000018387f000 + 14672\n6   libdispatch.dylib  0x000000018388a0ac 0x000000018387f000 + 45228\n7   libdispatch.dylib  0x000000018388ac10 0x000000018387f000 + 48144\n8   libdispatch.dylib  0x0000000183895318 0x000000018387f000 + 90904\n9   libsystem_pthread.dylib  0x00000001f40451b0 0x00000001f4044000 + 4528\n",
+            "n": "#3 Thread",
+            "ti": "10759"
+          },
+          {
+            "di": "0   libsystem_kernel.dylib  0x00000001ba656b44 0x00000001ba655000 + 6980\n1   libsystem_c.dylib  0x000000018e9f0efc 0x000000018e9ec000 + 20220\n2   libsystem_c.dylib  0x000000018ea04f50 0x000000018e9ec000 + 102224\n3   iOSDemoSession  0x00000001059bfb14 0x0000000104fd8000 + 10386196\n4   libsystem_pthread.dylib  0x00000001f4045a60 0x00000001f4044000 + 6752\n",
+            "n": "#4 Thread",
+            "ti": "11027"
+          },
+          {
+            "di": "0   libsystem_kernel.dylib  0x00000001ba656564 0x00000001ba655000 + 5476\n1   libsystem_kernel.dylib  0x00000001ba656bfc 0x00000001ba655000 + 7164\n2   libsystem_kernel.dylib  0x00000001ba662290 0x00000001ba655000 + 53904\n3   iOSDemoSession  0x000000010598a90c 0x0000000104fd8000 + 10168588\n4   libsystem_pthread.dylib  0x00000001f4045a60 0x00000001f4044000 + 6752\n",
+            "n": "#5 BRSCrash Exception Handler (Secondary)",
+            "ti": "20483"
+          },
+          {
+            "di": "0   libsystem_kernel.dylib  0x00000001ba656564 0x00000001ba655000 + 5476\n1   libsystem_kernel.dylib  0x00000001ba656bfc 0x00000001ba655000 + 7164\n2   iOSDemoSession  0x000000010598a938 0x0000000104fd8000 + 10168632\n3   libsystem_pthread.dylib  0x00000001f4045a60 0x00000001f4044000 + 6752\n",
+            "n": "#6 BRSCrash Exception Handler (Primary)",
+            "ti": "12547"
+          },
+          {
+            "di": "0   libsystem_kernel.dylib  0x00000001ba656564 0x00000001ba655000 + 5476\n1   libsystem_kernel.dylib  0x00000001ba656bfc 0x00000001ba655000 + 7164\n2   CoreFoundation  0x0000000183b7e698 0x0000000183b77000 + 30360\n3   CoreFoundation  0x0000000183b8298c 0x0000000183b77000 + 47500\n4   CoreFoundation  0x0000000183b963c8 0x0000000183b77000 + 127944\n5   Foundation  0x00000001853b9d54 0x00000001853a1000 + 101716\n6   Foundation  0x00000001853fb6a8 0x00000001853a1000 + 370344\n7   UIKitCore  0x00000001864b507c 0x0000000186021000 + 4800636\n8   Foundation  0x000000018540995c 0x00000001853a1000 + 428380\n9   libsystem_pthread.dylib  0x00000001f4045a60 0x00000001f4044000 + 6752\n",
+            "n": "#7 com.apple.uikit.eventfetch-thread",
+            "ti": "16643"
+          },
+          {
+            "di": "0   libsystem_kernel.dylib  0x00000001ba656564 0x00000001ba655000 + 5476\n1   libsystem_kernel.dylib  0x00000001ba656bfc 0x00000001ba655000 + 7164\n2   CoreFoundation  0x0000000183b7e698 0x0000000183b77000 + 30360\n3   CoreFoundation  0x0000000183b8298c 0x0000000183b77000 + 47500\n4   CoreFoundation  0x0000000183b963c8 0x0000000183b77000 + 127944\n5   CFNetwork  0x00000001846078d0 0x000000018438d000 + 2599120\n6   Foundation  0x000000018540995c 0x00000001853a1000 + 428380\n7   libsystem_pthread.dylib  0x00000001f4045a60 0x00000001f4044000 + 6752\n",
+            "n": "#8 com.apple.NSURLConnectionLoader",
+            "ti": "25359"
+          }
+        ]
+      }
+    },
+    {
+      "ent": 1620620990986228,
+      "k": "network",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "art": 10,
+        "cbh": "",
+        "cna": "",
+        "ct": 100,
+        "ds": 20,
+        "dt": 100,
+        "dti": 100,
+        "ec": 200,
+        "em": "",
+        "eop": 4,
+        "ep": "",
+        "ic": false,
+        "m": "GET",
+        "pt": 5,
+        "pvid": "",
+        "ret": "",
+        "rh": "",
+        "rhe": "",
+        "rt": 100,
+        "rti": 100,
+        "ru": "http://www.baidu.com/home?b=b10",
+        "sslt": 100,
+        "ti": "182.61.200.6",
+        "tid": "22011916248019b35f20008800d2c168d9",
+        "tp": 80
+      }
+    },
+    {
+      "ent" : 1698746783039536,
+      "k" : "network",
+      "sin" : [
+        "",
+        "16987467829644A7F28CC-F4F6-4434-87A5-2912568972FA",
+        "a4e23cd6d2c288966aa77f3dafeaef30"
+      ],
+      "v" : {
+        "art" : 10,
+        "ct" : 12000,
+        "ds" : 21,
+        "dt" : 0,
+        "dti" : 999,
+        "ec" : 200,
+        "ic" : false,
+        "id" : "88CB741D-481D-45C3-BF16-EC9C579E3BC1",
+        "m" : "POST",
+        "pt" : 1,
+        "rds" : 0,
+        "ret" : "text/plain;charset=UTF-8",
+        "rt" : 999,
+        "rti" : 12976,
+        "ru" : "http://10.241.131.14:9999/grip?v=2023092101&a=c78cdb0c-3eb7-4551-939f-62eb17426cda&d=5FD9A29A-5C93-4AB3-ADED-C1FC5E603304",
+        "sslt" : 0,
+        "ti" : "10.241.131.14",
+        "tp" : 9999
+      }
+    },
+     {
+      "ent" : 1698746783018166,
+      "k" : "network",
+      "sin" : [
+        "",
+        "16987467829644A7F28CC-F4F6-4434-87A5-2912568972FA",
+        "a4e23cd6d2c288966aa77f3dafeaef30"
+      ],
+      "v" : {
+        "art" : 10,
+        "ct" : 16999,
+        "ds" : 363,
+        "dt" : 1000,
+        "dti" : 999,
+        "ec" : 200,
+        "ic" : false,
+        "id" : "8B24AA45-6FE1-437F-B54C-88C0E73B642D",
+        "m" : "POST",
+        "pt" : 1,
+        "rds" : 267,
+        "ret" : "text/plain;charset=UTF-8",
+        "rt" : 2373,
+        "rti" : 29642,
+        "ru" : "http://demtest.bonree.com/gonghangrnconfig?v=2023092101&a=c78cdb0c-3eb7-4551-939f-62eb17426cda&d=5FD9A29A-5C93-4AB3-ADED-C1FC5E603304",
+        "sslt" : 0,
+        "ti" : "120.133.67.137",
+        "tp" : 80
+      }
+    },
+    {
+      "ent": 1620620990986228,
+      "k": "network",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "art": 10,
+        "cbh": "",
+        "cna": "",
+        "ct": 100,
+        "ds": 20,
+        "dt": 100,
+        "dti": 100,
+        "ec": 200,
+        "em": "",
+        "eop": 4,
+        "ep": "",
+        "ic": false,
+        "m": "GET",
+        "pt": 5,
+        "pvid": "",
+        "ret": "",
+        "rh": "",
+        "rhe": "",
+        "rt": 100,
+        "rti": 100,
+        "ru": "https://mywap2.icbc.com.cn/ICBCWAPBankRetailingServ/depositReactProject/static/images/asset_card_bg@2x.png",
+        "sslt": 100,
+        "ti": "182.61.200.6",
+        "tid": "22011916248019b35f20008800d2c168d9",
+        "tp": 80
+      }
+    },
+    {
+      "v": {
+        "pvid": "8848493f-b7da-42c1-92af-52f1866dc848",
+        "url": "http://www.bonree.com/home?b=b10",
+        "ic": false,
+        "wpi": {
+          "ce": 122,
+          "cs": 122,
+          "dc": 388,
+          "dclee": 387,
+          "dcles": 1387,
+          "di": 387,
+          "dl": 381,
+          "dle": 122,
+          "dls": 122,
+          "fs": 122,
+          "lee": 16000,
+          "les": 388,
+          "ns": 1604129445502,
+          "rde": -1,
+          "rds": -1,
+          "reqs": 152,
+          "rspe": 160,
+          "rsps": 2153,
+          "scs": -1,
+          "uee": -1,
+          "fp": 1200,
+          "ues": -1
+        }
+      },
+      "ent": 1619062881321005,
+      "k": "h5",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "pvid": "8848493f-b7da-42c1-92af-52f1866dc848",
+        "url": "http://www.baidu.com/home?b=b10",
+        "ic": false,
+        "wpi": {
+          "ce": 122,
+          "cs": 122,
+          "dc": 388,
+          "dclee": 387,
+          "dcles": 1387,
+          "di": 387,
+          "dl": 381,
+          "dle": 122,
+          "dls": 122,
+          "fs": 122,
+          "lee": 16000,
+          "les": 388,
+          "ns": 1604129445502,
+          "rde": -1,
+          "rds": -1,
+          "reqs": 152,
+          "rspe": 160,
+          "rsps": 2153,
+          "scs": -1,
+          "uee": -1,
+          "fp": 1200,
+          "ues": -1
+        }
+      },
+      "ent": 1619062881321005,
+      "k": "h5",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    }
+  ],
+  "mt": 1635499851634728,
+  "nsi": {
+    "d38fa3bacf0addc903802c695ee43aa9": {
+      "dip": "109.167.134.253",
+      "dsi": "192.250.12.48",
+      "ns": "ctradioaccesstechnologycdma1x"
+    }
+  },
+  "ui": {
+
+  },
+  "s": "eacc7e2e-dca5-42f7-8c10-16fd0d16f01c",
+  "usd": 4,
+  "v": "8.3.0"
+}
+

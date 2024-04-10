@@ -1,0 +1,128 @@
+{
+  "ai": {
+    "ai": "b3b662e1-2996-4fc8-a4dd-3a68bc2d44ad",
+    "an": "iOSDemoSession",
+    "av": "555",
+    "ci": "appstor",
+    "at": 2
+  },
+  "cmt": 1635499850259221,
+  "di": {
+    "a": "111",
+    "bn": "apple",
+    "ch": "apple",
+    "ci": "arm64",
+    "cm": "arm64",
+    "di": "013A99CF-BA24-468F-A290-7EABD26EAA7C",
+    "ds": "1125*2436",
+    "l": "zh-Hans-AR",
+    "m": "andorid14,1",
+    "obv": "19A346",
+    "omv": "apple iphone15,2",
+    "ot": 0,
+    "ram": 6144,
+    "rom": 51200
+  },
+  "ds": {
+    "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38": {
+      "auc": 20,
+      "aura": 3072,
+      "ot": 1,
+      "s": 0,
+      "sab": 95,
+      "sara": 3072,
+      "saro": 10240,
+      "suc": 20
+    }
+  },
+  "e": [
+    {
+      "ent": 1702970643200000,
+      "k": "network",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "art": 2,
+        "cna": [
+          "wapbsdc-gna-v4.sdc.cs.icbc"
+        ],
+        "ct": 100000,
+        "ds": 100000,
+        "dt": 100000,
+        "dti": 70000000,
+        "ec": 200000,
+        "ic": false,
+        "id": "06b9e796-3be4-41e3-b354-9037149e1f88",
+        "m": "GET",
+        "pt": 1,
+        "rh": "POST /upload?d=B4F58ED5-CAE4-4F5D-8680-AA63DAC66025&cmt=1702969144970000&mt=1702969571466085&s=b03effd4-dfdd-4b25-a2e1-be5f44300065&a=f03413f9-9045-478d-84ea-e18e91f363b4&v=2023092101 http/1.1\\nHost: 122.20.205.41\\nbrkey: ADCE2608-B607-427C-86F2-D979DBE540DC\\nContent-Type: application/json\\nBr-Content-Encoding: gzip\\n",
+        "rhe": "http/1.1 200 \\nServer: X-WEB\\nContent-Type: image/gif\\nEtag: \\\"559e0f5b-31\\\"\\nLast-Modified: Thu, 09 Jul 2015 06:06:19 GMT\\nVia: 1.1 ID-7203207600103314 uproxy-19\\nDate: Tue, 19 Dec 2023 07:53:33 GMT\\nAccept-Ranges: bytes\\nContent-Length: 49\\nConnection: Keep-alive",
+        "pvid": "9514b020-7f18-4207-ab8b-96128593e37d",
+        "rds": 0,
+        "ret": "image/",
+        "rt": 20000000,
+        "rti": 103000000,
+        "ru": "https://mywap2.icbc.com.cn/ICBCWAPBankRetailingServ/depositReactProject/static/images/asset_card_bg@2x.png",
+        "sslt": 1000000,
+        "ti": "122.22.77.203",
+        "tp": 0
+      }
+    },
+    {
+      "ent": 1702970643200000,
+      "k": "network",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "art": 2,
+        "cna": [
+          "wapbsdc-gna-v4.sdc.cs.icbc"
+        ],
+        "ct": 10000000,
+        "ds": 10000000,
+        "dt": 10000000,
+        "dti": 70000000000,
+        "ec": 20000000,
+        "ic": false,
+        "id": "06b9e796-3be4-41e3-b354-9037149e1f88",
+        "m": "GET",
+        "pt": 1,
+        "rh": "POST /upload?d=B4F58ED5-CAE4-4F5D-8680-AA63DAC66025&cmt=1702969144970000&mt=1702969571466085&s=b03effd4-dfdd-4b25-a2e1-be5f44300065&a=f03413f9-9045-478d-84ea-e18e91f363b4&v=2023092101 http/1.1\\nHost: 122.20.205.41\\nbrkey: ADCE2608-B607-427C-86F2-D979DBE540DC\\nContent-Type: application/json\\nBr-Content-Encoding: gzip\\n",
+        "rhe": "http/1.1 200 \\nServer: X-WEB\\nContent-Type: image/gif\\nEtag: \\\"559e0f5b-31\\\"\\nLast-Modified: Thu, 09 Jul 2015 06:06:19 GMT\\nVia: 1.1 ID-7203207600103314 uproxy-19\\nDate: Tue, 19 Dec 2023 07:53:33 GMT\\nAccept-Ranges: bytes\\nContent-Length: 49\\nConnection: Keep-alive",
+        "pvid": "9514b020-7f18-4207-ab8b-96128593e37d",
+        "rds": 0,
+        "ret": "image/",
+        "rt": 200000000,
+        "rti": 103000000,
+        "ru": "https://mywap2.icbc.com/ICBCWBankRetailingServ/depositReactProject/static/images/asset_card_bg@2x.png",
+        "sslt": 1000000,
+        "ti": "122.22.77.203",
+        "tp": 0
+      }
+    }
+  ],
+  "mt": 1635499851634728,
+  "nsi": {
+    "d38fa3bacf0addc903802c695ee43aa9": {
+      "dip": "109.167.134.253",
+      "dsi": "192.250.12.48",
+      "ns": "ctradioaccesstechnologycdma1x"
+    }
+  },
+  "ui": {
+    "a570357e-8873-419f-b9f9-28804ce8acf5": {
+      "ui": "aaabbbccc",
+      "ei": "{\"123博睿测试-userid（~！@#￥%……&*（）——+）\":\"博睿测试-688229（~！@#￥%……&*（）——+）\",\"博睿测试-userinfo（~！@#￥%……&*（）——+）\":\"ky2123214214（~！@#￥%……&*（）——+）\"}"
+    }
+  },
+  "s": "eacc7e2e-dca5-42f7-8c10-16fd0d16f01c",
+  "usd": 4,
+  "v": "8.3.0"
+}
+

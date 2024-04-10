@@ -1,0 +1,93 @@
+{
+  "ai": {
+    "ai": "186b2af5-1f9b-464e-ad9b-725724b2029awwww",
+    "an": "iOSDemoSession",
+    "av": "555",
+    "ci": "appstor",
+    "at": 2
+  },
+  "cmt": 1635499850259221,
+  "di": {
+    "a": "111",
+    "bn": "apple",
+    "ch": "apple",
+    "ci": "arm64",
+    "cm": "arm64",
+    "di": "013A99CF-BA24-468F-A290-7EABD26EAA7C",
+    "ds": "1125*2436",
+    "l": "zh-Hans-AR",
+    "m": "andorid14,1",
+    "obv": "19A346",
+    "omv": "iOS 15.0",
+    "ot": 0,
+    "ram": 6144,
+    "rom": 51200
+  },
+  "ds": {
+    "16987467829644A7F28CC-F4F6-4434-87A5-2912568972FA": {
+      "auc": 20,
+      "aura": 3072,
+      "ot": 1,
+      "s": 0,
+      "sab": 95,
+      "sara": 3072,
+      "saro": 10240,
+      "suc": 20
+    }
+  },
+  "e": [
+    {
+      "ent": 1702885134773000,
+      "k": "network",
+      "sin": [
+        "",
+        "cb5937f3-60d7-4338-a5c6-9b3683a3a1c7",
+        "65e714a3-27a6-4963-b2e7-31e9691e7823"
+      ],
+      "v": {
+        "ic": false,
+        "art": 10,
+        "cna": [
+          "imagetest.sdc.cs.icbc"
+        ],
+        "ct": 46000,
+        "dt": 3000,
+        "dti": 1000,
+        "ec": 404,
+        "eop": 4,
+        "ep": "http",
+        "id": "d0509c53-6c79-46ed-912a-72b99c3b92be",
+        "m": "GET",
+        "pt": 1,
+        "rds": 0,
+        "rh": "User-Agent: ICBCAndroidCSNew F-WAPB 44 fullversion:910100 newversion:9.1.0.1.0 10 MI 8 ea0b96d3e8bd62df WIFI supportRecommend devicebit:64 appbit:32 WAPB_TRACE6be1de09d87999cb6208a61e6f50db1cWAPB_TRACE  manufacturer:Xiaomi \r\nAccept-Encoding: gzip\r\nCookie: ICBCWAPB_BETA_VER\u003dbeta; ICBCWAPB_ACCTSERV\u003dbeta; ICBCWAPB_PORTAL_VER\u003dacbeta; ICBCWAPB_BETA_VER1a_MAVEN\u003dbeta; ICBCWAPB_BETA_VER2a_MAVEN\u003dbeta; ICBCWAPB_CLOUDNET_VER\u003dbeta; ICBCWAPB_BETA_VER1\u003dbeta; ICBCWAPBNEW_NLP_VER\u003dbeta; ICBCWAPB_BETA_VER2\u003dbeta; ICBCWAPB_FUNDFINANCE\u003dbeta; ICBCWAPB_BETA_VER3\u003dbeta; ICBCWAPB_BETA_VER3a_MAVEN\u003dbeta; ICBCWAPB_CARD_VER\u003dbeta; ICBCWAPB_BETA_VER4\u003dbeta; ICBCWAPB_BETA_VER5\u003dbeta; ICBCWAPB_BETA_VER1b_MAVEN\u003dbeta; ICBCWAPB_BETA_VER6\u003dbeta; ICBCWAPB_BETA_VER7\u003dbeta\r\n",
+        "rt": 1000,
+        "ru": "http://imagetest.sdc.cs.icbc:28080/EBMS-IOMP/4a91c9a884914f778c8bc7b693ab11c5.png",
+        "ret": "text/plain",
+        "rhe": "HTTP/1.1 404 \r\nServer: X-WEB\r\nDate: Mon,18 Dec 2023 07:35:25 GMT\r\nContent-Type: text/plain\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\n",
+        "rti": 85000,
+        "sslt": 0,
+        "ti": "122.52.42.203",
+        "tp": 28080,
+        "ds": 14
+      }
+    }
+  ],
+  "mt": 1635499851634728,
+  "nsi": {
+    "a4e23cd6d2c288966aa77f3dafeaef30": {
+      "dip": "38.165.61.171",
+      "dsi": "192.250.12.48",
+      "ns": "ctradioaccesstechnologynr"
+    }
+  },
+  "ui": {
+    "a570357e-8873-419f-b9f9-28804ce8acf5": {
+      "ui": "yl",
+      "ei": "{\"123博睿测试-userid（~！@#￥%……&*（）——+）\":\"博睿测试-688229（~！@#￥%……&*（）——+）\",\"博睿测试-userinfo（~！@#￥%……&*（）——+）\":\"ky2123214214（~！@#￥%……&*（）——+）\"}"
+    }
+  },
+  "s": "eacc7e2e-dca5-42f7-8c10-16fd0d16f01c",
+  "usd": 4,
+  "v": "8.3.0"
+}

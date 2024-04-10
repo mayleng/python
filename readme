@@ -1,0 +1,17 @@
+
+RN 协议地址
+https://ones.ibr.net.cn/wiki/#/team/2nP3wdMX/share/KfhaAqnC/page/FGqivPk5
+
+
+发送数据只需要填写
+ 1、 url = "http://10.241.131.29:58897/RUM/"
+
+2、  pt = "a"    选中pt的值
+
+3、 MD5 = "3bd9e2d305e44d9595feeac309180be4"     填写对应pt的md5值
+
+4、使用ios应用使用configios1_config_requests.json 文件
+   使用安卓应用使用configios_config_requests.json 文件
+
+
+

@@ -1,0 +1,429 @@
+{
+  "ai": {
+    "ai": "b3b662e1-2996-4fc8-a4dd-3a68bc2d44ad",
+    "an": "iOSDemoSession",
+    "av": "555",
+    "ci": "appstor"
+  },
+  "cmt": 1635499850259221,
+  "di": {
+    "a": "111",
+    "bn": "apple",
+    "ch": "apple",
+    "ci": "arm64",
+    "cm": "arm64",
+    "di": "013A99CF-BA24-468F-A290-7EABD26EAA7C",
+    "ds": "1125*2436",
+    "l": "zh-Hans-AR",
+    "m": "andorid14,1",
+    "obv": "19A346",
+    "omv": "iOS 15.0",
+    "ot": 0,
+    "ram": 6144,
+    "rom": 51200
+  },
+  "ds": {
+    "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38": {
+      "auc": 20,
+      "aura": 3072,
+      "ot": 1,
+      "s": 0,
+      "sab": 95,
+      "sara": 3072,
+      "saro": 10240,
+      "suc": 20
+    }
+  },
+  "e": [
+    {
+      "v": {
+        "id": "3246433326",
+        "t": "2",
+        "bn": "q5",
+        "rn": "q59",
+        "tti": 2000000,
+        "jslt": 10000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q8",
+        "rn": "q59",
+        "tti": 60000000,
+        "jslt": 10000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q1",
+        "rn": "q59",
+        "tti": 20000000,
+        "jslt": 10000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+
+        {
+      "v": {
+        "cab": "Caused by: java.lang.NullPointerException: Attempt to invoke virtual method \u0027java.lang.String java.lang.String.toString()\u0027 on a null object reference",
+        "cp": 3,
+        "cti": "1",
+        "ic": false,
+        "mti": "1",
+        "sl": "--------- beginning of system\n04-11 15:20:22.979 D/ActivityThread(27164): Attach thread to application\n04-11 15:20:22.985 I/HwActivityThreadImpl(27164): mSocketName: cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:22.985 I/HwActivityThreadImpl(27164): initPreloadedSocked end mPreloadStatus 2\n04-11 15:20:22.991 I/ActivityThread(27164): Init compatible state: true\n04-11 15:20:23.021 I/HwActivityThreadImpl(27164): accept socket mSocketName: cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:23.083 I/HwActivityThreadImpl(27164): before connect app.socketName:cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): accept socket end\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): connectContinuePreload end mPreloadStatus 3\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): acceptPreloadedApplication end mPreloadStatus 3\n04-11 15:20:23.210 D/HwCustConnectivityManagerImpl(27164): isBlockNetworkRequestByNonAis",
+        "t": "Android-可以解析得堆栈",
+        "rnlea": {
+          "id": "dw123",
+          "t": 2,
+          "bn": "q80999",
+          "rn": "q66vvv"
+        }
+      },
+      "ent": 1649661806675000,
+      "k": "crash",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+
+            {
+      "v": {
+        "cab": "Caused by: java.lang.NullPointerException: Attempt to invoke virtual method \u0027java.lang.String java.lang.String.toString()\u0027 on a null object reference",
+        "cp": 3,
+        "cti": "1",
+        "ic": false,
+        "mti": "1",
+        "sl": "--------- beginning of system\n04-11 15:20:22.979 D/ActivityThread(27164): Attach thread to application\n04-11 15:20:22.985 I/HwActivityThreadImpl(27164): mSocketName: cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:22.985 I/HwActivityThreadImpl(27164): initPreloadedSocked end mPreloadStatus 2\n04-11 15:20:22.991 I/ActivityThread(27164): Init compatible state: true\n04-11 15:20:23.021 I/HwActivityThreadImpl(27164): accept socket mSocketName: cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:23.083 I/HwActivityThreadImpl(27164): before connect app.socketName:cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): accept socket end\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): connectContinuePreload end mPreloadStatus 3\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): acceptPreloadedApplication end mPreloadStatus 3\n04-11 15:20:23.210 D/HwCustConnectivityManagerImpl(27164): isBlockNetworkRequestByNonAis",
+        "t": "Android-可以解析得堆栈",
+        "rnlea": {
+          "id": "dw123adsf",
+          "t": 2,
+          "bn": "q80nnn",
+          "rn": "q66mmm"
+        }
+      },
+      "ent": 1649661806675000,
+      "k": "crash",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+
+                {
+      "v": {
+        "cab": "Caused by: java.lang.NullPointerException: Attempt to invoke virtual method \u0027java.lang.String java.lang.String.toString()\u0027 on a null object reference",
+        "cp": 3,
+        "cti": "1",
+        "ic": false,
+        "mti": "1",
+        "sl": "--------- beginning of system\n04-11 15:20:22.979 D/ActivityThread(27164): Attach thread to application\n04-11 15:20:22.985 I/HwActivityThreadImpl(27164): mSocketName: cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:22.985 I/HwActivityThreadImpl(27164): initPreloadedSocked end mPreloadStatus 2\n04-11 15:20:22.991 I/ActivityThread(27164): Init compatible state: true\n04-11 15:20:23.021 I/HwActivityThreadImpl(27164): accept socket mSocketName: cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:23.083 I/HwActivityThreadImpl(27164): before connect app.socketName:cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): accept socket end\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): connectContinuePreload end mPreloadStatus 3\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): acceptPreloadedApplication end mPreloadStatus 3\n04-11 15:20:23.210 D/HwCustConnectivityManagerImpl(27164): isBlockNetworkRequestByNonAis",
+        "t": "Android-可以解析得堆栈",
+        "rnlea": {
+          "id": "dw123adsf",
+          "t": 2,
+          "bn": "q80asdf",
+          "rn": "q66aaa"
+        }
+      },
+      "ent": 1649661806675000,
+      "k": "crash",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+
+                    {
+      "v": {
+        "cab": "Caused by: java.lang.NullPointerException: Attempt to invoke virtual method \u0027java.lang.String java.lang.String.toString()\u0027 on a null object reference",
+        "cp": 3,
+        "cti": "1",
+        "ic": false,
+        "mti": "1",
+        "sl": "--------- beginning of system\n04-11 15:20:22.979 D/ActivityThread(27164): Attach thread to application\n04-11 15:20:22.985 I/HwActivityThreadImpl(27164): mSocketName: cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:22.985 I/HwActivityThreadImpl(27164): initPreloadedSocked end mPreloadStatus 2\n04-11 15:20:22.991 I/ActivityThread(27164): Init compatible state: true\n04-11 15:20:23.021 I/HwActivityThreadImpl(27164): accept socket mSocketName: cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:23.083 I/HwActivityThreadImpl(27164): before connect app.socketName:cff6ffbe-885b-4071-bbfe-5bbc48576b83\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): accept socket end\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): connectContinuePreload end mPreloadStatus 3\n04-11 15:20:23.084 I/HwActivityThreadImpl(27164): acceptPreloadedApplication end mPreloadStatus 3\n04-11 15:20:23.210 D/HwCustConnectivityManagerImpl(27164): isBlockNetworkRequestByNonAis",
+        "t": "Android-可以解析得堆栈",
+        "rnlea": {
+          "id": "dw1m3adf",
+          "t": 2,
+          "bn": "q80aadsfdf",
+          "rn": "q66aaadsfa"
+        }
+      },
+      "ent": 1649661806675000,
+      "k": "crash",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q2",
+        "rn": "q59",
+        "tti": 3000000,
+        "jslt": 10000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q3",
+        "rn": "q59",
+        "tti": 4000000,
+        "jslt": 10000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q4",
+        "rn": "q59",
+        "tti": 500000,
+        "jslt": 10000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q5",
+        "rn": "q59",
+        "tti": 6000000,
+        "jslt": 10000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q6",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 10000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w1",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 1000000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w2",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 2000000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w3",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 3000000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w4",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 4000000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w5",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 5000000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w6",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 6000000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w7",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 9000000,
+        "rt": 40000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    }
+
+  ],
+  "mt": 1635499851634728,
+  "nsi": {
+    "d38fa3bacf0addc903802c695ee43aa9": {
+      "dip": "109.167.134.253",
+      "dsi": "192.250.12.48",
+      "ns": "ctradioaccesstechnologycdma1x"
+    }
+  },
+  "ui": {
+    "a570357e-8873-419f-b9f9-28804ce8acf5": {
+      "ui": "55",
+      "ei": "{\"123博睿测试-userid（~！@#￥%……&*（）——+）\":\"博睿测试-688229（~！@#￥%……&*（）——+）\",\"博睿测试-userinfo（~！@#￥%……&*（）——+）\":\"ky2123214214（~！@#￥%……&*（）——+）\"}"
+    }
+  },
+  "s": "eacc7e2e-dca5-42f7-8c10-16fd0d16f01c",
+  "usd": 4,
+  "v": "8.3.0"
+}
+
