@@ -55,8 +55,7 @@ def send_config_request(device_id, MD5, app):
 
 def send_upload_request(upjsonname, MD5, device_id, app, s,c):
     # url1 = Base_dir + "/" + upjsonname + "_upload5_request.json"
-    list1 = ["_upload_request.json", "_upload1_request.json", "_upload2_request.json", "_upload3_request.json",
-             "_upload4_request.json", "_upload5_request.json", "_upload6_request.json", "_upload7_request.json"]
+    list1 = ["_upload8_request.json","_upload9_request.json"]
 
     url1 = Base_dir + "/" + upjsonname + random.choice(list1)
     print('====================', url1)
@@ -141,7 +140,7 @@ def send_upload_request(upjsonname, MD5, device_id, app, s,c):
         print("net------------", net)
 
         # 构造的rn同批量基线数据
-        json_array = [];
+        json_array = []
         for i in json_data['e']:
             global k
             i['ent'] = c
@@ -176,15 +175,16 @@ if __name__ == "__main__":
     #url = "http://10.241.131.14:39999/"
 
     #rum_controller 地址
-    url = "http://10.241.211.40:58897/RUM/"
+    # url = "http://10.241.211.40:58897/RUM/"
+    url = "http://10.241.131.29:58897/RUM/"
 
     upload_num = 0
     di = str(uuid.uuid1())
     d = 0
     us = [6000000, 240000000]
 
-    pt = random.choice(["a", "l", "m", "z", "h", "w"])
-    #pt = 'w'
+    # pt = random.choice(["a", "l", "m", "z", "h", "w"])
+    pt = 'l'
     print("pt****************", pt)
 
     # 通过pt来区分不同的应用类型
@@ -212,8 +212,8 @@ if __name__ == "__main__":
         at = 0
         cfjsonname = "configios"
         upjsonname = "cc_crash"
-        # MD5 = "dc8b0d25e68d4ebca9add406069c5a52"
-        MD5 = "932dc54b02d44b0d8a1bfaeb7bd98080"
+        MD5 = "dc8b0d25e68d4ebca9add406069c5a52"
+        # MD5 = "932dc54b02d44b0d8a1bfaeb7bd98080"
 
 
     # 安卓
@@ -222,8 +222,8 @@ if __name__ == "__main__":
         at = 1
         cfjsonname = "configios"
         upjsonname = "cc_crash"
-        # MD5 = "d30df7dc7fa74b74aa25a3f180433f42"
-        MD5 = "26261c3401634497a0bf00bcc051f5de"
+        MD5 = "d30df7dc7fa74b74aa25a3f180433f42"
+        # MD5 = "26261c3401634497a0bf00bcc051f5de"
 
     # 鸿蒙系统
     elif pt == "h":
@@ -253,14 +253,15 @@ if __name__ == "__main__":
         time.sleep(1)
         d = i
         # 为什么改app版本的时候要在脚本中改而不是json中改
-        app = "18"
+        # app = "18"
+        app = random.choice(["18", "28", "38", "39", "50", "55", "56", "57", "58", "59"])
         qqudao = "a-41"
         print("设备id：", di)
         n1 = i
         upload_num += 1
         if pt != "b":
             c_response = send_config_request(di, MD5, app)
-            json_str = json.dumps(c_response);
+            json_str = json.dumps(c_response)
         else:
             c_response = {"rc": 10000}
         if c_response.get("rc") == 10000:

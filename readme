@@ -2,6 +2,8 @@
 RN 协议地址
 https://ones.ibr.net.cn/wiki/#/team/2nP3wdMX/share/KfhaAqnC/page/FGqivPk5
 
+整体的协议地址：
+https://gitee.ibr.net.cn/wiki/Bonree/space/B4vuyusN/doc/16377
 
 发送数据只需要填写
  1、 url = "http://10.241.131.29:58897/RUM/"
@@ -10,8 +12,300 @@ https://ones.ibr.net.cn/wiki/#/team/2nP3wdMX/share/KfhaAqnC/page/FGqivPk5
 
 3、 MD5 = "3bd9e2d305e44d9595feeac309180be4"     填写对应pt的md5值
 
-4、使用ios应用使用configios1_config_requests.json 文件
-   使用安卓应用使用configios_config_requests.json 文件
+4、configios_config_requests.json 文件
+ "ConfigRequest":   //请求体
+{
+    "v":"",   //version 探针版本号[非空字段]
+    "di":{},  //DeviceInfo 设备信息
+    "ai":{},  //AppInfo 应用信息
+    "ui":{},  //UserInfo 用户信息 [非必要字段]
+    "nsi":{}, //NetworkStateInfo 网络状态信息 Config请求中的网络状态只有网络制式字段
+    "dfi":{}  //DataFusionInfo 端到端数据打通信息 [非必要字段]
+}
+
+5、"UploadRequest":
+{
+    "s":"",    //session 会话(如果崩溃发生在config响应之前则自主构造格式为br:uuid)[非空字段]  web应用无Session
+    "pid":"",  //process identifier 进程唯一标识
+    "v":"",    //version 探针版本号[非空字段]
+    "mt":1,    //monitor time upload监控时间(首次组合数据上报的时间) 「单位us 时间戳」
+    "cmt":1,   //config monitor time Config下发的服务器事件 「单位us 时间戳」
+    "di":{},   //DeviceInfo 设备信息
+    "ai":{},   //AppInfo 应用信息 [Android、iOS、win非空]
+    "as":{},   //AppStateInfo 应用状态信息
+    "fui":"",  //first UserInfo index 首个设置的有效UserInfo信息的索引（有效指UserInfo中设置了UserID，且有事件使用）。
+                 该字段一个会话中最多赋值一次[非必要字段]
+    "ti":[{}], //TrafficInfo 流量信息 对象数组形式 [非必要字段]
+    "ui":{},   //UserInfo 用户信息 使用Key:Value形式记录多个UserInfo,Event中记录Key做对应 [非必要字段]
+    "ds":{},   //DeviceStateInfo 设备状态信息 使用Key:Value形式记录多个DeviceStateInfo,Event中记录Key做对应
+                [Android、iOS、Win探针非空，JS、MP探针无此字段]
+   "nsi":{},  //NetworkStateInfo 网络状态信息 使用Key:Value形式记录多个NetworkStateInfo,Event中记录Key做对应
+               [Android、iOS、Win、MP探针非空，JS探针无此字段]
+   "usd":1,   //unit session duration 单位upload中会话持续时间，本次最大ent-上次最大ent。「单位us，可能为0」[非空字段]
+    "tid":"",  //trackID 单次追踪唯一标识 [非必要字段]
+    "dfi":{},  //DataFusionInfo 端到端数据打通信息 [非必要字段]
+    "sst": 1,  //session start time 会话开始时间,取值为当前会话最早的事件的ent「单位us 时间戳」[非空字段]
+    "e":[{}]   //Event   ANR、 卡顿、崩溃、 JS错误、 自定义异常都属于事件
+}
+
+
+6、upload协议详解
+  "ai": {     //AppInfo 应用信息
+    "ai":"", //app id 应用ID [非空字段]
+    "av":"", //app version 应用版本 [非空字段]
+    "an":"", //app name 应用名 [非空字段]
+    "ci":"", //channel id 渠道商ID [非必要字段]
+    "at":1   //app type 应用类型「0:iOS,1:Android,2:Windows,3:HarmonyOS,4:H5,5:小程序」 [非空字段,需考虑老版本字段兼容]
+}
+
+
+"ui":{  //UserInfo 用户信息
+    "ui":"", //user id 用户ID [非必要字段]
+    "ei":"", //extra info 附加信息 [非必要字段]
+}
+
+"ti":{   //流量信息
+    "tu":1,    //traffic usage 消耗流量 「单位：Byte」[非空字段]
+    "sin":"1", //state index 状态索引NetworkStateInfo对应key值的数据 [非空字段]
+}
+
+"di":{     //设备信息
+    "di":"",  //device id 设备ID [非空字段]
+    "a":"",   //authority 权限 「root,user,system」[非空字段]
+    "bn":"",  //band name 品牌信息 [非必要字段]「Android、iOS、Win、MP探针非空，JS探针非必要」
+    "m":"",   //model 型号 [默认值""，非必要字段]「Android、iOS、Win、MP探针非空，JS探针无此字段」
+    "omv":"", //os major version OS主版本 [非空字段]
+    "obv":"", //os build version OS编译版本 [非必要字段]
+    "ocv":"", //os custom version OS定制版本 [非必要字段]
+    "ot":1,   //os type OS类型 「0:iOS,1:Android,2:Windows,3:HarmonyOS,4:Mac」 [非空字段]
+    "ram":1,  //total RAM 整机RAM内存 [单位MB，默认值-1，非空字段]
+    "rom":1,  //total ROM 整机ROM存储空间 [单位MB，默认值-1，非空字段]
+    "l":"",   //language 语言 [非空字段]
+    "ch":"",  //cpu hardware CPU厂商 [非必要字段]「Android、iOS、Win探针非空，MP、JS探针无此字段」
+    "cm":"",  //cpu model CPU型号 [非必要字段]「Android、iOS、Win探针非空，MP、JS探针无此字段」
+    "ci":"",  //cpu instruction set CPU指令集 [非必要字段]「Android、iOS、Win探针非空，MP探针无此字段，JS探针非必要」
+    "ds":"",  //display size 屏幕分辨率 [非空字段]
+    "dsn":"", //disk serial number 磁盘序列号 [非必要字段]「Win探针2.1.3版本为必要字段,移动探针不使用」
+    "ctn":"", //container name 容器名称「小程序赋值WeChat、Alipay」 [非必要字段]
+    "ctv":""  //container version 容器版本「小程序应用的版本号，如微信的版本号」 [非必要字段]
+}
+
+"as":{  //AppStateInfo 应用状态信息
+	"pplt": 1, // periodic process life time. upload周期内的应用进程存活时长 [单位：us，默认值-1]
+	"pft": 1,  // periodic foreground time. upload周期内的应用在前台的时长 [单位：us]
+	"pact": 1, // periodic app cpu time. upload周期内的应用cpu时长 [单位：us，默认值-1] [非必要字段，仅iOS有]
+}
+
+"ds":{  //设备状态信息
+    "suc":1,     //system use cpu 系统CPU占用 [单位%，默认值-1，非空字段]
+    "auc":1,     //app use cpu app使用cpu [单位%，默认值-1，非空字段]
+    "aura":1,    //app use RAM 应用使用内存 [单位MB，默认值-1，非空字段]
+    "sab":1,     //system available battery 剩余电量 [默认值-1，非空字段]
+    "saro":1,    //system available ROM 剩余存储 [单位MB，默认值-1，非空字段]
+    "sara":1,    //system available RAM 剩余内存 [单位MB，默认值-1，非空字段]
+    "ib":true,   //is bluetooth open 蓝牙是否开启 [默认值false，非必要字段]
+    "igo":true,  //is gps open GPS是否开启 [默认值false，非必要字段]
+    "iolo":true, //is orientation lock open 方向锁是否开启 [默认值false，非必要字段]
+    "ot":1,      //orientation 屏幕方向「1: 竖屏，2:横屏」[默认值1，非必要字段]
+    "s":1,       //signal 信号强度 取值范围[0-3000] Tcping 超时时间3000ms [默认值0，非空字段]
+}
+
+"nsi":{   //网络状态信息
+    "dip":"", //ip 设备出口IP [非必要字段]
+    "dsi":"", //dns server ip 本地dns [非必要字段]
+    "ns":"",  //networt standard 网络制式 「无网:NaN WiFi:WiFi ...」 [非空字段]
+}
+
+ "dfi":{ //端到端数据打通信息（用于多产品数据融合）
+    "app": "",  //App产品数据打通信息，Json字符串，由App端设置 [非必要字段]
+    "net": ""   //Net产品数据打通信息 当前无内容需求,随机字符串 [非必要字段]
+}
+
+
+7、"Event":
+"e":{
+    "k": "",      //event type 事件类型 「network,h5,jserror,crash,view,mpview,launch,action,lag,statechange,
+                  anr,customlog,customevent,custommetric,speedtest,routechange,instruction, battery,console,
+                  span，rnload
+    "ent": 1,     //event time 事件发生时刻 「单位us 时间戳」
+    "sin": ["1"], //state index 状态索引 字符串数组「["1","1","1"]（依次取公共部分中ui,ds,nsi对应key值的数据）」
+    "v": {},      //event info 事件内容
+    "tri": [{}],  //TraceInfo 轨迹信息(数组) [非必要字段,仅crash,lag,anr,网络错误事件会有轨迹数据]
+    "revts":[{}]  //Related Events 关联事件 {Event}对象数组 [非必要字段]
+}
+
+
+8、事件协议
+"LaunchEvent":     //应用启动事件
+{
+    "t":1,         //type 启动类型「1:冷启动,2:热启动,3:首次启动」[非空字段]
+    "lt":1,        //load time 加载耗时 [单位us,非空字段]
+    "is":false,    //is slow 是否发生慢启动 [非自定义数据非空, 自定义数据为空]
+    "tmi":[{}],    //ThreadMethodInfo 线程方法信息 [慢启动线程方法信息,非必要字段]
+}
+
+"ViewEvent":   //视图事件
+{
+    "ci":"",       //correlation id 视图关联ID [非空字段]
+    "lt":1,        //load time 加载耗时 [单位us,非空字段]
+    "st":1,        //stay time 停留耗时 [单位us,非必要字段]
+    "m":1,         //model 方式 「1:进入，2:退出」[非空字段]
+    "t":1,         //type 类型 「1:h5,2:activity,3:fragment,4:window,5:controler,6:RN,7:Flutter,8:Ability,9:AbilitySlice,10:MP（10枚举废弃）」[非空字段]
+     "pv":"",       //parent view 父视图 [非必要字段]
+    "n":"",        //name 视图名称 [非空字段]
+    "ic":true,     //is custom 是否是自定义 [默认值false,非空字段]
+    "p":"",        //param 参数 [非必要字段]
+    "is":false,    //is slow 视图是否发生慢加载 [非自定义数据非空, 自定义数据为空]
+    "tmi":[{}],    //ThreadMethodInfo 线程方法信息 [慢加载线程方法信息,进入方式有,非必要字段]
+}
+
+"MPViewEvent":  //小程序视图事件
+{
+    "ci":"",      //correlation id 视图关联ID [非空字段]
+    "pvid":"",    //page view id 视图关联ID，同一视图一次生命周期内id不变，销毁后重新load生成新的id [非空字段]
+    "rt":1,       //ready load time 加载耗时，生命周期load时刻到ready的时间段，（有ready为ready-load） [单位us,非空字段]
+    "lt":111,     //load time 用户可交互加载耗时，从生命周期load到ready期间最后一次setData结束时间减去load时刻时间得到的用户可交互加载耗时，setData最晚结束时间小于ready回调结束时间，取ready-load（有ready为ready，没有为show） 「数据类型：number 单位：us」[非空字段]
+   "st":0,       //stay time 停留耗时 [单位us,非空字段]
+    "m":1,        //model 方式 [新：1:进入，2:返回，3:退出，4：展示中]「旧：1:进入，2:退出，3:展示中」[非空字段]
+    "n":"",       //name 视图名称 [非空字段]
+    "ic":false,   //is custom 是否是自定义 [默认值false,非空字段]
+    "p":"",       //param 参数 [非必要字段]
+   "is":false,   //is slow 视图是否发生慢加载 [非空字段, 自定义数据默认false]
+    "std":[       //setData setData数据的对象数组 [非必要字段]
+        {
+            "d":['aaa','bbb'],    // data  setData修改数据，「数据类型：array；目前只上传修改数据的key」[非空字段]
+            "p":"pages/index",    // path setData数据产生的页面 「数据类型：string；当前发生数据变化的视图url」[非空字段]
+            "pst":19216837241000, // pendingStartTimestamp setData排队等待时间，数据发生修改的时刻，也是页面渲染开始等待的时刻
+                                    「数据类型：number 单位：us」[非空字段]
+            "ust":19216837241000, // updateStartTimestamp 视图开始更新时间 「数据类型：number 单位：us」[非空字段]
+            "uet":19216837241000, // updateEndTimestamp 视图结束更新时间 「数据类型：number 单位：us」[非空字段]
+            "s":100               // size 更新数据大小 「数据类型：number 单位：byte」[非空字段]
+        },
+    ]
+}
+
+"ActionEvent":   //操作事件
+{
+    "id": "",       //identifier 操作的唯一标识，每次操作均不一致 [非必要字段]
+    "m": 1,         //mode [1：开始，2:结束] [非必要字段]
+    "t":1,          //type 操作类型「0:其他 1:点击,2:手势，3:键盘，4:输入」[非空字段]
+    "sa":1,         //source of action 操作来源 「0:原生,1:JS,2:RN,3:MP」[非空字段]
+    "n":"",         //name 控件名 [非空字段]
+    "i":"",         //info 信息 「主方法及参数」[非空字段]
+    "ci": {},       //ControlInfo 控件信息 [非必要字段]
+    "vn":"",        //view name 发生视图名称 [非空字段]
+    "vt":1,         //view type vn对应的视图类型「0:未知，1:h5,2:activity,3:fragment,4:window,5:controler,6:RN,7:Flutter,8:Ability,9:AbilitySlice」[非空字段]
+    "vci":"",       //view correlation id vn对应视图事件的correlation id [非必要字段]
+    "ic":true,      //is custom 是否是自定义 [默认值false,非空字段]
+    "ice":false,    //is custom end 是否是自定义操作结束 [非必要]
+    "fer":1         //force end reason  1:退后台强制结束 [非必要，仅结束事件有效]
+    "p":"",         //param 参数 [非必要字段]
+    "lt":1,         //load time 加载耗时 [单位us,非空字段]
+    "is":false,     //is slow 是否发生慢操作 [非必要字段]
+    "tmi":[{}],     //ThreadMethodInfo 线程方法信息 [慢操作线程方法信息,非必要字段]
+    "me":{},        //Method [非必要字段]
+    "crids":[""],   //array of crash id [非必要字段]
+}
+
+"CrashEvent":    //崩溃事件
+{
+    "id":"",    //identifier crash的唯一标识
+    "cab":"",   //causeby 崩溃原因 [非必要字段，系统崩溃非空，自定义异常非必要]
+    "t":"",     //type 崩溃类型「看门狗类型崩溃固定传0x8badf00d」 [非空字段]
+    "cti":"",   //crash thread id 崩溃线程ID [非必要字段，系统崩溃非空，自定义异常不传]
+    "mti":"",   //main thread id 主线程ID [非必要字段，系统崩溃非空，自定义异常不传]
+    "sl":"",    //syslog 安卓系统日志 [非必要字段]
+    "bi":"",    //binary info iOS二进制信息 [非必要字段，iOS系统崩溃非空，自定义异常不传]
+    "ic":true,  //iscustom 是否是自定义 [默认值false,非空字段]
+    "p":"",     //param 参数 [非必要字段]
+    "tdi":[{}], //ThreadDumpInfo 线程堆栈信息 [非必要字段，系统崩溃非空，自定义异常不传]
+    "cp":1,     //crash platform 发生崩溃的组件 「1:Native，2:Java，3:RN，4:Flutter，5:weex」 [非必要字段，系统崩溃非空，自定义异常非必要]
+    "alt":1,    //App launch time App(进程启动时间)启动时间(不是热启动时间)到崩溃发生时的耗时「单位us」[非空字段，需考虑老版本字段兼容]
+    "as":1      //App state 崩溃时App前后台状态 「1:前台，2:后台」[非空字段，需考虑老版本字段兼容]
+}
+
+"ANREvent":   //ANR事件
+{
+    "am":"",  //anr message 信息 [非必要字段]
+    "aty":"", //anr type 类型 [非必要字段]
+    "cab":"", //causeby  ANR原因 [非空字段]
+    "tdi":{}, //ThreadDumpInfo ANR发生时主线程的线程堆栈信息 原anr thread  [非空字段]
+    "atr":"", //anr trace [非空字段]
+    "ap":"",  //anr part 部件 [非空字段]
+}
+
+"LagEvent":   //卡顿事件
+{
+    "bi":"",  //binary info iOS二进制信息 [非必要字段]
+    "vn":"",  //view name 发生视图名称 [非必要字段]
+    "vt":1,  //view type 「0:未知，1:h5,2:activity,3:fragment,4:window,5:controler,6:RN,7:Flutter,8:Ability,9:AbilitySlice」 [非必要字段]
+    "t":1,    //type 卡顿类型 「0:主线程卡顿 1:FPS流畅度卡顿」[非空字段]
+    "tdi":{}, //ThreadDumpInfo 线程堆栈信息 [只要主线程]
+}
+
+"JSErrorEvent":  //js错误事件
+{
+    "pvid":"",	//page id H5页面id [默认值0,非空字段]
+    "url":"",   //url 所属H5页面地址 [非空字段]
+    "t":"",     //title 所属H5页面title [非必要字段]
+    "n":"",     //name js文件名称[非必要字段]
+    "et":"",    //type 错误类型 [非必要字段]
+    "m":"",     //message 错误信息 [非必要字段]
+    "l":1,      //line 错误行 [非空字段]
+    "col":1,    //column 错误列 [非空字段]
+    "sta":"",   //stack 错误堆栈 [非必要字段]
+    "pct":1,    //page create time 所属H5页面创建时间「单位us 时间戳」[非空字段]
+    "cbhq":"",  //custom business header query string 请求头自定义业务字段数据 query string形式（字符做URL Encoding）「key0=value0&key1=value1」 [非必要字段]
+    "cbbq":"",  //custom business body query string 请求体自定义业务字段数据query string形式（字符做URL Encoding）「key0=value0&key1=value1」 [非必要字段]
+    "cbq":"",   //custom business query string URL参数自定义业务字段数据query string（字符做URL Encoding）「key0=value0&key1=value1」 [非必要字段]
+    "pt":0,     //page type 发生JS错误的页面类型 「0:未知类型,1:h5页面,2:路由页面,3:微信小程序页面」 [非空字段]
+    "ua": "",   //UserAgent 发生JS错误时的UserAgent信息 [非必要字段]
+    "ect": 1    //Error Classification type onerror接口错误的归类类型 「0:未知类型,1:元素错误,2:请求错误,3:JS错误」[非空字段]
+}
+
+"CustomEventEvent":   //自定义事件事件
+{
+    "i":"",      //id 事件ID [非空字段]
+    "n":"",      //name 事件名称 [非必要字段]
+    "t":1,       //type 自定义事件类型 「0:精简事件 1:完整事件开始 2:完整事件结束」[非空字段]
+    "d":1,       //duration 自定义事件耗时 「单位:us,精简版事件&完整事件开始 耗时为0」 [非空字段]
+    "l":"",      //label 事件标签 [非必要字段]
+    "ci":"",     //correlation id 事件关联ID 用于事件开始与结束匹配 [非必要字段,完整事件开始&结束必传]
+    "p":"",      //param 附加信息 [非必要字段]
+    "info": {}   //info [字典类型] [非必要字段]
+}
+
+"CustomLogEvent":   //自定义日志事件
+{
+    "i":"", //info 信息 [非空字段]
+    "p":"", //param 附加信息 [非必要字段]
+}
+
+
+9、rn协议详解
+"e":
+{
+      "v": {
+        "id": "6433326",   //identifier 操作的唯一标识，每次操作均不一致
+        "t": "1",         // RNLoadEvent类型，对应RNLoadEvent中的t [1:bundle，2:非首页的页面]
+        "bn": "q8",  //bundle name bundle名称 [t为1时，表示加载的bundle名称；t为2时，表示页面所属的bundle名称]
+        "rn": "q59",      //route name 路由名称 [仅t为2时有效] [非必要字段]
+        "tti": 6000000,   //time to interactive. 从bundle加载到可交互的耗时 [单位：us] [为t为1时有效，t为2时没有意义]
+        "jslt": 100000,  //js load time. 从bundle加载到js加载完成的耗时 [单位：us] [仅t为1时有效，t为2时没有意义
+        "rt": 4000000     //route time 路由切换耗时 [单位：us] [仅t为2时有效，t为1时没有意义]
+      },
+
+
+      "ent": 1619062879315890,    //event time 事件发生时刻 「单位us 时间戳」
+      "k": "rnload",     //event type 事件类型
+      "sin":   //state index 状态索引 字符串数组「["1","1","1"]（依次取公共部分中ui,ds,nsi对应key值的数据）
+	  [
+        "a570357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    }
+
 
 
 
