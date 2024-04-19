@@ -1,0 +1,1186 @@
+{
+  "ai": {
+    "ai": "b3b662e1-2996-4fc8-a4dd-3a68bc2d44ad",
+    "an": "iOSDemoSession",
+    "av": "555",
+    "ci": "appstor",
+    "at": 0
+  },
+  "cmt": 1635499850259221,
+  "di": {
+    "a": "111",
+    "bn": "apple",
+    "ch": "apple",
+    "ci": "arm64",
+    "cm": "arm64",
+    "di": "013A99CF-BA24-468F-A290-7EABD26EAA7C",
+    "ds": "1125*2436",
+    "l": "zh-Hans-AR",
+    "m": "iPhone15,2",
+    "obv": "19A346",
+    "omv": "iPhone iPhone15,2",
+    "ot": 1,
+    "ram": 6144,
+    "rom": 51200
+  },
+  "ds": {
+    "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38": {
+      "auc": 20,
+      "aura": 3072,
+      "ot": 1,
+      "s": 0,
+      "sab": 95,
+      "sara": 3072,
+      "saro": 10240,
+      "suc": 20
+    }
+  },
+  "e": [
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q8",
+        "rn": "q59",
+        "tti": 6000000,
+        "jslt": 100000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q8",
+        "rn": "q59oooppp",
+        "tti": 6000000,
+        "jslt": 10000,
+        "rt": 5000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q1",
+        "rn": "q59",
+        "tti": 2000000,
+        "jslt": 100000,
+        "rt": 6000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "2",
+        "bn": "q1",
+        "rn": "q59cccccvvvv",
+        "tti": 2000000,
+        "jslt": 100000,
+        "rt": 7000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q2",
+        "rn": "q59",
+        "tti": 3000000,
+        "jslt": 100000,
+        "rt": 9000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "2",
+        "bn": "q2",
+        "rn": "q59mmmmbbb",
+        "tti": 3000000,
+        "jslt": 50000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q3",
+        "rn": "q59",
+        "tti": 4000000,
+        "jslt": 10000,
+        "rt": 9000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "2",
+        "bn": "q3",
+        "rn": "q59nnhhjj",
+        "tti": 4000000,
+        "jslt": 10000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q4",
+        "rn": "q59",
+        "tti": 5000000,
+        "jslt": 10000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "2",
+        "bn": "q4",
+        "rn": "q59iiiuuu",
+        "tti": 5000000,
+        "jslt": 10000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q5",
+        "rn": "q59",
+        "tti": 6000000,
+        "jslt": 10000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "2",
+        "bn": "q5",
+        "rn": "q5jjkkll",
+        "tti": 6000000,
+        "jslt": 10000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "q6",
+        "rn": "q59aaa",
+        "tti": 7000000,
+        "jslt": 10000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "2",
+        "bn": "q6",
+        "rn": "q5nnnvvvccc",
+        "tti": 7000000,
+        "jslt": 10000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w1",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 1000000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w2",
+        "rn": "w2uuoovvvcc",
+        "tti": 7000000,
+        "jslt": 2000000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w3",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 3000000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "2",
+        "bn": "w3",
+        "rn": "yyuunnw3",
+        "tti": 7000000,
+        "jslt": 3000000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w4",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 4000000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "2",
+        "bn": "w4",
+        "rn": "vvvbbbccchhh",
+        "tti": 7000000,
+        "jslt": 4000000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w5",
+        "rn": "q59",
+        "tti": 7000000,
+        "jslt": 5000000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "2",
+        "bn": "w5",
+        "rn": "hhhfffjjjj",
+        "tti": 700000,
+        "jslt": 500000,
+        "rt": 400000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "6433326",
+        "t": "1",
+        "bn": "w6",
+        "rn": "q59",
+        "tti": 700000,
+        "jslt": 600000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "id-1698746784084-4",
+        "t": "2",
+        "bn": "w766555",
+        "rn": "Detail111",
+        "tti": 700000,
+        "jslt": 900000,
+        "rt": 400000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "id-1698746784084-4",
+        "t": "1",
+        "bn": "w766555",
+        "rn": "Detail111",
+        "tti": 700000,
+        "jslt": 900000,
+        "rt": 400000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "v": {
+        "id": "48FB6C99-6A32-4C64-8947-9B6AEC91D8D6",
+        "t": "2",
+        "bn": "q80nnn",
+        "rn": "q59",
+        "tti": 200000,
+        "jslt": 10000,
+        "rt": 4000000
+      },
+      "ent": 1619062879315890,
+      "k": "rnload",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ]
+    },
+    {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "Can't find variable: aaaa",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18804-2100-434A-8408-AE399F4FDB2C",
+        "mti": "771",
+        "rnlea": {
+          "bn": "q59",
+          "id": "48FB6C99-6A32-4C64-8947-9B6AEC91D854",
+          "rn": "DetailScreen",
+          "t": 2
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "onPress@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:93615:36\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:77846:25\ntouchableHandlePress@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41860:47\ntouchableHandlePress@[native code]\n_performSideEffectsForTransition@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41394:36\n_performSideEffectsForTransition@[native code]\n_receiveSignal@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41333:46\n_receiveSignal@[native code]\ntouchableHandleResponderRelease@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41233:26\ntouchableHandleResponderRelease@[native code]\ninvokeGuardedCallbackImpl@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9454:21\ninvokeGuardedCallback@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9529:42\ninvokeGuardedCallbackAndCatchFirstError@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9532:36\nexecuteDispatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9693:48\nexecuteDispatchesInOrder@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9710:26\nexecuteDispatchesAndRelease@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9788:35\nforEach@[native code]\nforEachAccumulated@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9780:22\nrunEventsInBatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9860:27\nrunExtractedEventsInBatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9866:25\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10666:36\nbatchedUpdates$1@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:19820:20\nbatchedUpdates@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10622:37\n_receiveRootNodeIDEvent@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10665:23\nreceiveTouches@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10690:34\n__callFunction@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:2097:49\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:1890:31\n__guard@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:2056:15\ncallFunctionReturnFlushedQueue@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:1889:21\ncallFunctionReturnFlushedQueue@[native code]",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+     {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "Can't find variable: aaaa",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18804-2100-434A-8408-AE399F4FDB2C",
+        "mti": "771",
+        "rnlea": {
+          "bn": "q59",
+          "id": "48FB6C99-6A32-4C64-8937-9B6AEC91D8D4",
+          "rn": "DetailScreen",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "onPress@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:93615:36\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:77846:25\ntouchableHandlePress@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41860:47\ntouchableHandlePress@[native code]\n_performSideEffectsForTransition@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41394:36\n_performSideEffectsForTransition@[native code]\n_receiveSignal@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41333:46\n_receiveSignal@[native code]\ntouchableHandleResponderRelease@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41233:26\ntouchableHandleResponderRelease@[native code]\ninvokeGuardedCallbackImpl@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9454:21\ninvokeGuardedCallback@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9529:42\ninvokeGuardedCallbackAndCatchFirstError@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9532:36\nexecuteDispatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9693:48\nexecuteDispatchesInOrder@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9710:26\nexecuteDispatchesAndRelease@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9788:35\nforEach@[native code]\nforEachAccumulated@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9780:22\nrunEventsInBatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9860:27\nrunExtractedEventsInBatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9866:25\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10666:36\nbatchedUpdates$1@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:19820:20\nbatchedUpdates@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10622:37\n_receiveRootNodeIDEvent@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10665:23\nreceiveTouches@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10690:34\n__callFunction@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:2097:49\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:1890:31\n__guard@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:2056:15\ncallFunctionReturnFlushedQueue@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:1889:21\ncallFunctionReturnFlushedQueue@[native code]",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+     {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "Can't find variable: aaaa",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18804-2100-434A-8408-AE399F4FDB2C",
+        "mti": "771",
+        "rnlea": {
+          "bn": "q590",
+          "id": "48FB6C99-6W32-4C64-8947-9B6AEC91D8D4",
+          "rn": "DetailScreen1",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "onPress@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:93615:36\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:77846:25\ntouchableHandlePress@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41860:47\ntouchableHandlePress@[native code]\n_performSideEffectsForTransition@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41394:36\n_performSideEffectsForTransition@[native code]\n_receiveSignal@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41333:46\n_receiveSignal@[native code]\ntouchableHandleResponderRelease@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41233:26\ntouchableHandleResponderRelease@[native code]\ninvokeGuardedCallbackImpl@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9454:21\ninvokeGuardedCallback@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9529:42\ninvokeGuardedCallbackAndCatchFirstError@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9532:36\nexecuteDispatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9693:48\nexecuteDispatchesInOrder@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9710:26\nexecuteDispatchesAndRelease@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9788:35\nforEach@[native code]\nforEachAccumulated@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9780:22\nrunEventsInBatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9860:27\nrunExtractedEventsInBatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9866:25\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10666:36\nbatchedUpdates$1@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:19820:20\nbatchedUpdates@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10622:37\n_receiveRootNodeIDEvent@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10665:23\nreceiveTouches@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10690:34\n__callFunction@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:2097:49\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:1890:31\n__guard@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:2056:15\ncallFunctionReturnFlushedQueue@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:1889:21\ncallFunctionReturnFlushedQueue@[native code]",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+     {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "Can't find variable: aaaa",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18804-2100-434A-8408-AE399F4FDB2C",
+        "mti": "771",
+        "rnlea": {
+          "bn": "q596",
+          "id": "48FB6C99-6A32-4C64-8947-9B6AEC91D8D4",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "onPress@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:93615:36\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:77846:25\ntouchableHandlePress@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41860:47\ntouchableHandlePress@[native code]\n_performSideEffectsForTransition@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41394:36\n_performSideEffectsForTransition@[native code]\n_receiveSignal@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41333:46\n_receiveSignal@[native code]\ntouchableHandleResponderRelease@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41233:26\ntouchableHandleResponderRelease@[native code]\ninvokeGuardedCallbackImpl@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9454:21\ninvokeGuardedCallback@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9529:42\ninvokeGuardedCallbackAndCatchFirstError@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9532:36\nexecuteDispatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9693:48\nexecuteDispatchesInOrder@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9710:26\nexecuteDispatchesAndRelease@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9788:35\nforEach@[native code]\nforEachAccumulated@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9780:22\nrunEventsInBatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9860:27\nrunExtractedEventsInBatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9866:25\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10666:36\nbatchedUpdates$1@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:19820:20\nbatchedUpdates@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10622:37\n_receiveRootNodeIDEvent@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10665:23\nreceiveTouches@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10690:34\n__callFunction@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:2097:49\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:1890:31\n__guard@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:2056:15\ncallFunctionReturnFlushedQueue@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:1889:21\ncallFunctionReturnFlushedQueue@[native code]",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+     {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18804-2100-434A-8408-AE399F4FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "b2",
+          "id": "48FB6C99-6A32-4C64-8947-9B6AEC91D8D5",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18804-2100-H36A-8408-AE399F4FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "b2",
+          "id": "48FB6C99-6A32-YC64-8947-9B6AEC91D8D5",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18804-2180-H36A-8408-AE399F4FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "b2",
+          "id": "68FB6C99-6A32-YC64-8947-9B6AEC91D8D5",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18807-2100-H36A-8408-AE399F4FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "w2",
+          "id": "48FB6C99-6A32-YC64-8987-9B6AEC91D8D5",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18807-2100-H36A-8H08-AE399F4FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "w2",
+          "id": "48FB6C99-6A32-YC64-8987-9B6AEC91D8D5",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18807-2100-H36A-8808-AE399F4FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "q8",
+          "id": "48FB6C99-6A32-YC67-8987-9B6AEC91D8D5",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18807-2100-H36A-8808-AE399F7FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "q8",
+          "id": "98FB6C99-6A32-YC67-8987-9B6AEC91D8D5",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18807-2160-H36A-8808-AE399F7FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "q1",
+          "id": "98FB6C99-6A32-YC67-8987-9B6AEC95D8D5",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18807-2120-H36A-8808-AE399F7FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "q8",
+          "id": "98FB6C99-6A32-YC67-8987-9B6AEC91D9D7",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18857-2120-H36A-8808-AE399F7FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "b1",
+          "id": "98FB6C99-6A62-YC67-8987-9B6AEC91D9D7",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18807-2125-H36A-8808-AE399F7FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "b1",
+          "id": "98FB6C99-6A35-YC67-8987-9B6AEC91D9D7",
+          "rn": "DetailScreen5",
+          "t": 1
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18857-2120-H36A-8808-AE399F7FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "b1",
+          "id": "98FB6C79-6A32-YC77-8987-9B6AEC91D9D7",
+          "rn": "b12",
+          "t": 2
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D38807-2120-H36A-8808-AE399F7FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "b1",
+          "id": "98FB6C19-6A32-YC67-8987-9B6AEC91D9D7",
+          "rn": "b11",
+          "t": 2
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18807-2128-H36A-8808-AE399F7FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "w5",
+          "id": "98FB6C99-6A32-YC67-8887-9B6AEC91D9D7",
+          "rn": "hhh",
+          "t": 2
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+ {
+      "ent": 1698746799171000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 16228206,
+        "as": 1,
+        "cab": "something  is error",
+        "cp": 3,
+        "cti": "43011",
+        "ic": false,
+        "id": "03D18807-2828-H36A-8808-AE399F7FDB2H",
+        "mti": "771",
+        "rnlea": {
+          "bn": "w5",
+          "id": "98FB6C99-6A82-YC67-8887-9B6AEC91D9D7",
+          "rn": "hhh",
+          "t": 2
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "dgsfdgdgdfg",
+            "n": "Thread-43011",
+            "ti": "43011"
+          }
+        ]
+      }
+    },
+    {
+      "ent": 1698746803563000,
+      "k": "crash",
+      "sin": [
+        "a880357e-8873-419f-b9f9-28804ce8acf5",
+        "16171971620489058A153-B1EE-48B9-B4F9-81C2B85F7B38",
+        "d38fa3bacf0addc903802c695ee43aa9"
+      ],
+      "v": {
+        "alt": 20635598,
+        "as": 1,
+        "cab": "Can't find variable: aaaa",
+        "cp": 3,
+        "cti": "4099",
+        "ic": false,
+        "id": "950D13DE-14BA-443C-B00E-18D491D1EB11",
+        "mti": "771",
+        "rnlea": {
+          "bn": "w766555",
+          "id": "id-1698746784084-4",
+          "rn": "Detail111",
+          "t": 2
+        },
+        "t": "ReferenceError",
+        "tdi": [
+          {
+            "di": "onPress@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:93880:36\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:77846:25\ntouchableHandlePress@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41860:47\ntouchableHandlePress@[native code]\n_performSideEffectsForTransition@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41394:36\n_performSideEffectsForTransition@[native code]\n_receiveSignal@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41333:46\n_receiveSignal@[native code]\ntouchableHandleResponderRelease@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:41233:26\ntouchableHandleResponderRelease@[native code]\ninvokeGuardedCallbackImpl@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9454:21\ninvokeGuardedCallback@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9529:42\ninvokeGuardedCallbackAndCatchFirstError@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9532:36\nexecuteDispatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9693:48\nexecuteDispatchesInOrder@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9710:26\nexecuteDispatchesAndRelease@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9788:35\nforEach@[native code]\nforEachAccumulated@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9780:22\nrunEventsInBatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9860:27\nrunExtractedEventsInBatch@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:9866:25\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10666:36\nbatchedUpdates$1@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:19820:20\nbatchedUpdates@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10622:37\n_receiveRootNodeIDEvent@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10665:23\nreceiveTouches@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:10690:34\n__callFunction@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:2097:49\nhttp://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:1890:31\n__guard@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:2056:15\ncallFunctionReturnFlushedQueue@http://192.168.31.59:8081/index.bundle?platform=ios&dev=true&minify=false:1889:21\ncallFunctionReturnFlushedQueue@[native code]",
+            "n": "Thread-4099",
+            "ti": "4099"
+          }
+        ]
+      }
+    }
+  ],
+  "mt": 1635499851634728,
+  "nsi": {
+    "d38fa3bacf0addc903802c695ee43aa9": {
+      "dip": "27.128.79.232",
+      "dsi": "192.250.12.48",
+      "ns": "ctradioaccesstechnologycdma1x"
+    }
+  },
+  "ui": {
+    "a880357e-8873-419f-b9f9-28804ce8acf5": {
+      "ui": "hhhhhh",
+      "ei": "{\"123博睿测试-userid（~！@#￥%……&*（）——+）\":\"博睿测试-688229（~！@#￥%……&*（）——+）\",\"博睿测试-userinfo（~！@#￥%……&*（）——+）\":\"ky2123214214（~！@#￥%……&*（）——+）\"}"
+    }
+  },
+  "s": "eacc7e2e-dca5-42f7-8c10-16fd0d16f01c",
+  "usd": 4,
+  "v": "8.3.0"
+}
+
